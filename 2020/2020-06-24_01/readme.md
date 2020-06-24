@@ -29,5 +29,5 @@
  - LAN에서 (?) 지역 네트워크 안에서만 쓸수 있는 IP (Ex. 192.169.0.4, private IP Address 사설 IP주소, 내선번호)
 
  동영상 링크
- [![Video Label](http://img.youtube.com/vi/PLuHgQVnccGMA52uRBmSwqcvtI5IMoFclJ/0.jpg)](https://youtu.be/PLuHgQVnccGMA52uRBmSwqcvtI5IMoFclJ)
+ [![Video Label](http://img.youtube.com/vi/sQBXgccvE98&list/0.jpg)](https://www.youtube.com/watch?v=sQBXgccvE98&list=PLuHgQVnccGMA52uRBmSwqcvtI5IMoFclJ&index=2&t=0s)
  
