@@ -148,14 +148,13 @@
     |  5 | MongoDB     | MongoDB is...     | 2020-07-06 17:56:20 | JAEHOON |  developer                |
     +----+-------------+-------------------+---------------------+---------+---------------------------+
     5 rows in set (0.00 sec)
-		
+      
 
-
-    ##DATABASE2 MySQL - 8.2���̺��� ����
-    VARCHAR (�ؽ�Ʈ ǥ��)
-    DATETIME (��¥�ͽð� ��� ǥ��)
-    primary key (���ɰ� �ߺ��� ���Ѵ�) -Ex. DB2�� �ۼ��ϴµ� id���� �ߺ��Ǹ� �ȵǰ� �� �� ����
-    You must reset your password ������, Error1820 �˻��ؼ� �ذ��϶�.
-    DATABASE2 MySQL - 9.CRUD
-    create read�� �߿�
-    DATABASE2 MySQL - 10.INSERT
+## DATABASE2 MySQL - 8.2테이블의 생성
+- VARCHAR (텍스트 표현)
+- DATETIME (날짜와시간 모두 표현)
+- primary key (성능과 중복을 피한다) -Ex. DB2를 작성하는데 id값은 중복되면 안되게 할 수 있음
+- You must reset your password 나오면, Error1820 검색해서 해결하라.
+- DATABASE2 MySQL - 9.CRUD
+- create read가 중요
+- DATABASE2 MySQL - 10.INSERT
