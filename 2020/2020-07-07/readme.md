@@ -220,8 +220,8 @@ mysql> SELECT*FROM topic;
 ```
 
 ## 동영상 링크
-[DATABASE2 MySQL - 11.SELECT](https://www.youtube.com/watch?v=FCnJH6fLc64&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=17)
-[DATABASE2 MySQL - 12.UPDATE](https://www.youtube.com/watch?v=pNINXzXaWWM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=18)
-[DATABASE2 MySQL - 13.DELETE](https://www.youtube.com/watch?v=GDY2_t-9l-s&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=19)
-[DATABASE2 MySQL - 14.수업의 정상](https://www.youtube.com/watch?v=_LpWcVkTytU&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=20)
+[DATABASE2 MySQL - 11.SELECT](https://www.youtube.com/watch?v=FCnJH6fLc64&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=17)  
+[DATABASE2 MySQL - 12.UPDATE](https://www.youtube.com/watch?v=pNINXzXaWWM&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=18)  
+[DATABASE2 MySQL - 13.DELETE](https://www.youtube.com/watch?v=GDY2_t-9l-s&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=19)  
+[DATABASE2 MySQL - 14.수업의 정상](https://www.youtube.com/watch?v=_LpWcVkTytU&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=20)  
 
