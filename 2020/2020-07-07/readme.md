@@ -32,7 +32,7 @@
 - 어려워도 잘해보자....
 
 
-'''sql
+```sql
 mysql> desc topic;
 +-------------+--------------+------+-----+---------+----------------+
 | Field       | Type         | Null | Key | Default | Extra          |
@@ -217,4 +217,4 @@ mysql> SELECT*FROM topic;
 |  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
 +----+-------------+-------------------+---------------------+---------+---------------------------+
 4 rows in set (0.00 sec)
-'''
+```
