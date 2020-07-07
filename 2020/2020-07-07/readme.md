@@ -219,5 +219,5 @@ mysql> SELECT*FROM topic;
 4 rows in set (0.00 sec)
 ```
 
-<iframe width="640" height="360" src="https://www.youtube.com/watch?v=FCnJH6fLc64&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=17" frameborder="0" gesture="media" allowfullscreen=""></iframe>
+[linkname](https://www.youtube.com/watch?v=FCnJH6fLc64&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=17)
 
