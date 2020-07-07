@@ -1,32 +1,220 @@
 ## DATABASE2 MySQL - 11.SELECT
-- ¸ðµç µ¥ÀÌÅÍ¸¦ È­¸é¿¡ Ãâ·ÂÇÏ°í ½Í´Ù.
-- mysql> SELECT id, title, created, author FROM topic; => ÀûÇôÁöÁö ¾ÊÀº °ÍµéÀº º¸ÀÌÁö ¾Ê´Â´Ù.
-- WHERE - µ¥ÀÌÅÍ °ªÀÌ JAEHOONÀÎ °ª¸¸ º¸°í ½Í´Ù. FROM´ÙÀ½
+- ëª¨ë“  ë°ì´í„°ë¥¼ í™”ë©´ì— ì¶œë ¥í•˜ê³  ì‹¶ë‹¤.
+- mysql> SELECT id, title, created, author FROM topic; => ì í˜€ì§€ì§€ ì•Šì€ ê²ƒë“¤ì€ ë³´ì´ì§€ ì•ŠëŠ”ë‹¤.
+- WHERE - ë°ì´í„° ê°’ì´ JAEHOONì¸ ê°’ë§Œ ë³´ê³  ì‹¶ë‹¤. FROMë‹¤ìŒ
 - SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON';
-- ORDER BY => Á¤·Ä±â´É, mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON' ORDER BY id DESC;
-  (ÅäÇÈÀ¸·ÎºÎÅÍ ÀúÀÚ "jaehoon"ÀÌ Æ÷ÇÔÇÑ µ¥ÀÌÅÍ¸¦ descending (¿À¸§Â÷¼ø)À¸·Î º¸¿©´Þ¶ó.
-- ½ºÇÁ·¹Æ® ½ÃÆ®´Â 65,000°³ÀÇ µ¥ÀÌÅÍ¸¦ ³ÖÀ» ¼ö ÀÖ´Âµ¥, µ¥ÀÌÅÍº£ÀÌ½º´Â 10¾ï°Ç Á¤µµ »Ì¾Æ³¾ ¼ö ÀÖ´Âµ¥, ÀÌ¶§ slct from topic ÇÏ¸é ÄÄÇ»ÅÍ ¸À°¨¤±.
+- ORDER BY => ì •ë ¬ê¸°ëŠ¥, mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON' ORDER BY id DESC;
+  (í† í”½ìœ¼ë¡œë¶€í„° ì €ìž "jaehoon"ì´ í¬í•¨í•œ ë°ì´í„°ë¥¼ descending (ì˜¤ë¦„ì°¨ìˆœ)ìœ¼ë¡œ ë³´ì—¬ë‹¬ë¼.
+- ìŠ¤í”„ë ˆíŠ¸ ì‹œíŠ¸ëŠ” 65,000ê°œì˜ ë°ì´í„°ë¥¼ ë„£ì„ ìˆ˜ ìžˆëŠ”ë°, ë°ì´í„°ë² ì´ìŠ¤ëŠ” 10ì–µê±´ ì •ë„ ë½‘ì•„ë‚¼ ìˆ˜ ìžˆëŠ”ë°, ì´ë•Œ slct from topic í•˜ë©´ ì»´í“¨í„° ë§›ê°ã….
 - LIMIT =>mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON' ORDER BY id DESC LIMIT 2;
-  (Á¦ÇÑµÈ °Í¸¸ º¼ ¼ö ÀÖ°Ô)
-- ¼ö·ÃÀÌ ÇÊ¿äÇÔ .. CRUD Áß ReadÀÇ ¿µ¿ª.
+  (ì œí•œëœ ê²ƒë§Œ ë³¼ ìˆ˜ ìžˆê²Œ)
+- ìˆ˜ë ¨ì´ í•„ìš”í•¨ .. CRUD ì¤‘ Readì˜ ì˜ì—­.
 
 ## DATABASE2 MySQL - 12.UPDATE 
-- ¼öÁ¤Àº ¾î¶»°Ô ÇÒ±î?
-- sql update mysql °Ë»ö
+- ìˆ˜ì •ì€ ì–´ë–»ê²Œ í• ê¹Œ?
+- sql update mysql ê²€ìƒ‰
 - UPDATE topic SET description='ORACLE is...', title='Oracle' where id=2;
-  (º»·¡ Oracle=> ORACLE·Î ¾÷µ¥ÀÌÆ®, Á¦¸ñÀÌ ¿À¶óÅ¬ÀÎ, ¾ÆÀÌµð 2 ¿¡¼­¸¸)
-- *where¹®À» ºü¶ß¸®´Â ¼ø°£ Àç¾ÓÀÌ ´ÚÄ£´Ù...
+  (ë³¸ëž˜ Oracle=> ORACLEë¡œ ì—…ë°ì´íŠ¸, ì œëª©ì´ ì˜¤ë¼í´ì¸, ì•„ì´ë”” 2 ì—ì„œë§Œ)
+- *whereë¬¸ì„ ë¹ ëœ¨ë¦¬ëŠ” ìˆœê°„ ìž¬ì•™ì´ ë‹¥ì¹œë‹¤...
 
 ## DATABASE2 MySQL - 13.DELETE
 - SQL delete in mySQL
 - DELETE FROM topic WHERE id = 5;
-  (id 5ÀÎmongoDB¸¦ »èÁ¦ÇÑ´Ù.)
-- DELETE Àß¸øÇÏ¸é ÀÎ»ýÀÌ µÚ¹Ù²ï´Ù...
+  (id 5ì¸mongoDBë¥¼ ì‚­ì œí•œë‹¤.)
+- DELETE ìž˜ëª»í•˜ë©´ ì¸ìƒì´ ë’¤ë°”ë€ë‹¤...
 
-## DATABASE2 MySQL - 14.¼ö¾÷ÀÇ Á¤»ó
-- Çõ½Åinnovaion°ú º»ÁúessenceÀ» ¿ø½ÉºÐ¸®
+## DATABASE2 MySQL - 14.ìˆ˜ì—…ì˜ ì •ìƒ
+- í˜ì‹ innovaionê³¼ ë³¸ì§ˆessenceì„ ì›ì‹¬ë¶„ë¦¬
 - essence: Database (CRUD)
 - innovation: Relational
-- ±³¾çÀÌ¶ó¸é °æÁ¦ÀûÀÎ °øºÎ¶ó¸é ¿©±â±îÁö¾ß.....
-- ¸ØÃâ ¼ö ¾ø´Â ºÐµéÀº RDB´Â ¿Ö ´Ù¸¥ µ¥ÀÌÅÍº£ÀÌ½º¿Í ±¸ºÐµÇ´Â°¡? => RelaationalÀÇ ÀÇ¹Ì´Â?
-- ¾î·Á¿öµµ ÀßÇØº¸ÀÚ....
+- êµì–‘ì´ë¼ë©´ ê²½ì œì ì¸ ê³µë¶€ë¼ë©´ ì—¬ê¸°ê¹Œì§€ì•¼.....
+- ë©ˆì¶œ ìˆ˜ ì—†ëŠ” ë¶„ë“¤ì€ RDBëŠ” ì™œ ë‹¤ë¥¸ ë°ì´í„°ë² ì´ìŠ¤ì™€ êµ¬ë¶„ë˜ëŠ”ê°€? => Relaationalì˜ ì˜ë¯¸ëŠ”?
+- ì–´ë ¤ì›Œë„ ìž˜í•´ë³´ìž....
+
+
+'''sql
+mysql> desc topic;
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int          | NO   | PRI | NULL    | auto_increment |
+| title       | varchar(100) | NO   |     | NULL    |                |
+| description | text         | YES  |     | NULL    |                |
+| created     | datetime     | NO   |     | NULL    |                |
+| author      | varchar(30)  | YES  |     | NULL    |                |
+| profile     | varchar(100) | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT*FROM topic;
+Empty set (0.00 sec)
+
+mysql>  INSERT INTO topic(title,description,created,author,profile) VALUES('MySQL','MySQL is...',now(), 'JAEHOON', 'developer');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO topic(title,description,created,author,profile) VALUES('Oracle','Oracle is...',now(), 'JAEHOON', 'developer');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO topic(title,description,created,author,profile) VALUES('SQL Server','SQL Server is...',now(), 'duru','data administrator');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> INSERT INTO topic(title,description,created,author,profile) VALUES('Postgre SQL','Postgre SQL is...',now(), 'taeho','data scientist, developer');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> NSERT INTO topic(title,description,created,author,profile) VALUES('MongoDB','MongoDB is...',now(), 'JAEHOON',' developer');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'NSERT INTO topic(title,description,created,author,profile) VALUES('MongoDB','Mon' at line 1
+mysql>  INSERT INTO topic(title,description,created,author,profile) VALUES('MongoDB','MongoDB is...',now(), 'JAEHOON',' developer');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> Select*from topic;
++----+-------------+-------------------+---------------------+---------+---------------------------+
+| id | title       | description       | created             | author  | profile                   |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+|  1 | MySQL       | MySQL is...       | 2020-07-07 14:22:13 | JAEHOON | developer                 |
+|  2 | Oracle      | Oracle is...      | 2020-07-07 14:22:22 | JAEHOON | developer                 |
+|  3 | SQL Server  | SQL Server is...  | 2020-07-07 14:22:40 | duru    | data administrator        |
+|  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
+|  5 | MongoDB     | MongoDB is...     | 2020-07-07 14:23:20 | JAEHOON |  developer                |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select*from topic;
++----+-------------+-------------------+---------------------+---------+---------------------------+
+| id | title       | description       | created             | author  | profile                   |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+|  1 | MySQL       | MySQL is...       | 2020-07-07 14:22:13 | JAEHOON | developer                 |
+|  2 | Oracle      | Oracle is...      | 2020-07-07 14:22:22 | JAEHOON | developer                 |
+|  3 | SQL Server  | SQL Server is...  | 2020-07-07 14:22:40 | duru    | data administrator        |
+|  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
+|  5 | MongoDB     | MongoDB is...     | 2020-07-07 14:23:20 | JAEHOON |  developer                |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT id, title, created, author FROM topic;
++----+-------------+---------------------+---------+
+| id | title       | created             | author  |
++----+-------------+---------------------+---------+
+|  1 | MySQL       | 2020-07-07 14:22:13 | JAEHOON |
+|  2 | Oracle      | 2020-07-07 14:22:22 | JAEHOON |
+|  3 | SQL Server  | 2020-07-07 14:22:40 | duru    |
+|  4 | Postgre SQL | 2020-07-07 14:22:47 | taeho   |
+|  5 | MongoDB     | 2020-07-07 14:23:20 | JAEHOON |
++----+-------------+---------------------+---------+
+5 rows in set (0.00 sec)
+
+mysql> select "JAEHOON";
++---------+
+| JAEHOON |
++---------+
+| JAEHOON |
++---------+
+1 row in set (0.00 sec)
+
+mysql> select "JAEHOON", 1+1;
++---------+-----+
+| JAEHOON | 1+1 |
++---------+-----+
+| JAEHOON |   2 |
++---------+-----+
+1 row in set (0.00 sec)
+
+mysql> SELECT id, title, created, author FROM topic;
++----+-------------+---------------------+---------+
+| id | title       | created             | author  |
++----+-------------+---------------------+---------+
+|  1 | MySQL       | 2020-07-07 14:22:13 | JAEHOON |
+|  2 | Oracle      | 2020-07-07 14:22:22 | JAEHOON |
+|  3 | SQL Server  | 2020-07-07 14:22:40 | duru    |
+|  4 | Postgre SQL | 2020-07-07 14:22:47 | taeho   |
+|  5 | MongoDB     | 2020-07-07 14:23:20 | JAEHOON |
++----+-------------+---------------------+---------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON';
++----+---------+---------------------+---------+
+| id | title   | created             | author  |
++----+---------+---------------------+---------+
+|  1 | MySQL   | 2020-07-07 14:22:13 | JAEHOON |
+|  2 | Oracle  | 2020-07-07 14:22:22 | JAEHOON |
+|  5 | MongoDB | 2020-07-07 14:23:20 | JAEHOON |
++----+---------+---------------------+---------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON' ORDER BY id DESC;
++----+---------+---------------------+---------+
+| id | title   | created             | author  |
++----+---------+---------------------+---------+
+|  5 | MongoDB | 2020-07-07 14:23:20 | JAEHOON |
+|  2 | Oracle  | 2020-07-07 14:22:22 | JAEHOON |
+|  1 | MySQL   | 2020-07-07 14:22:13 | JAEHOON |
++----+---------+---------------------+---------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT id, title, created, author FROM topic WHERE author = 'JAEHOON' ORDER BY id DESC LIMIT 2;
++----+---------+---------------------+---------+
+| id | title   | created             | author  |
++----+---------+---------------------+---------+
+|  5 | MongoDB | 2020-07-07 14:23:20 | JAEHOON |
+|  2 | Oracle  | 2020-07-07 14:22:22 | JAEHOON |
++----+---------+---------------------+---------+
+2 rows in set (0.00 sec)
+
+mysql> DESC TOPIC;
++-------------+--------------+------+-----+---------+----------------+
+| Field       | Type         | Null | Key | Default | Extra          |
++-------------+--------------+------+-----+---------+----------------+
+| id          | int          | NO   | PRI | NULL    | auto_increment |
+| title       | varchar(100) | NO   |     | NULL    |                |
+| description | text         | YES  |     | NULL    |                |
+| created     | datetime     | NO   |     | NULL    |                |
+| author      | varchar(30)  | YES  |     | NULL    |                |
+| profile     | varchar(100) | YES  |     | NULL    |                |
++-------------+--------------+------+-----+---------+----------------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT*FROM topic;
++----+-------------+-------------------+---------------------+---------+---------------------------+
+| id | title       | description       | created             | author  | profile                   |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+|  1 | MySQL       | MySQL is...       | 2020-07-07 14:22:13 | JAEHOON | developer                 |
+|  2 | Oracle      | Oracle is...      | 2020-07-07 14:22:22 | JAEHOON | developer                 |
+|  3 | SQL Server  | SQL Server is...  | 2020-07-07 14:22:40 | duru    | data administrator        |
+|  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
+|  5 | MongoDB     | MongoDB is...     | 2020-07-07 14:23:20 | JAEHOON |  developer                |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> UPDATE topic SET decription='Oracle is...', title='Oracle' where id=2;
+ERROR 1054 (42S22): Unknown column 'decription' in 'field list'
+mysql> UPDATE topic SET decription='ORACLE is...', title='Oracle' where id=2;
+ERROR 1054 (42S22): Unknown column 'decription' in 'field list'
+mysql> UPDATE topic SET description='ORACLE is...', title='Oracle' where id=2;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> SELECT*FROM topic;
++----+-------------+-------------------+---------------------+---------+---------------------------+
+| id | title       | description       | created             | author  | profile                   |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+|  1 | MySQL       | MySQL is...       | 2020-07-07 14:22:13 | JAEHOON | developer                 |
+|  2 | Oracle      | ORACLE is...      | 2020-07-07 14:22:22 | JAEHOON | developer                 |
+|  3 | SQL Server  | SQL Server is...  | 2020-07-07 14:22:40 | duru    | data administrator        |
+|  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
+|  5 | MongoDB     | MongoDB is...     | 2020-07-07 14:23:20 | JAEHOON |  developer                |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> DELETE FROM topic WHERE id = 5;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SELECT*FROM topic;
++----+-------------+-------------------+---------------------+---------+---------------------------+
+| id | title       | description       | created             | author  | profile                   |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+|  1 | MySQL       | MySQL is...       | 2020-07-07 14:22:13 | JAEHOON | developer                 |
+|  2 | Oracle      | ORACLE is...      | 2020-07-07 14:22:22 | JAEHOON | developer                 |
+|  3 | SQL Server  | SQL Server is...  | 2020-07-07 14:22:40 | duru    | data administrator        |
+|  4 | Postgre SQL | Postgre SQL is... | 2020-07-07 14:22:47 | taeho   | data scientist, developer |
++----+-------------+-------------------+---------------------+---------+---------------------------+
+4 rows in set (0.00 sec)
+'''
