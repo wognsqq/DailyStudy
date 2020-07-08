@@ -8,6 +8,12 @@
 ## DATABASE2 MYSQL 16.테이블 분리
 - topic테이블을 topic, author 로 분할하고 두가지를 하나로 합치는 join을 살펴보자.
 
+## DATABASE MYSQL 17. JOIN
+- JOIN을 통해서 서로 각각 독립적인 분리된 테이블을, 읽을 때 마치 그 테이블이 마치 하나의 테이블로 저장되 있었던 것처럼 만들 수 있다.
+- author id의 값과 같은 값을 가지고 있는, author 테이블에 있는 행을 가져와서 topic 테이블에 붙여.
+- 내가 author_id만 있을 때 cmnt만 보고 누구의 아이디인지 알 수 있을 까?
+- Select*From comment LEFT JOIN author ON comment.author_id = author.id;
+- 관계형 데이터베이스를 관계형 데이터베이스 답게 하는 
 ```sql
 mysql> select*from topic_backup;
 +----+-------------+-------------------+---------------------+---------+---------------------------+
@@ -164,6 +170,83 @@ mysql> select*from author;
 3 rows in set (0.00 sec)
 ```
 
+-17.join
+
+```sql
+mysql> select*from topic;
++----+------------+-------------------+---------------------+-----------+
+| id | title      | description       | created             | author_id |
++----+------------+-------------------+---------------------+-----------+
+|  1 | MySQL      | MySQL is...       | 2018-01-01 12:10:11 |         1 |
+|  2 | Oracle     | Oracle is...      | 2018-01-03 13:01:10 |         1 |
+|  3 | SQL Server | SQL Server is ... | 2018-01-20 11:01:10 |         2 |
+|  4 | PostgreSQL | PostgreSQL is ... | 2018-01-23 01:03:03 |         3 |
+|  5 | MongoDB    | MongoDB is ...    | 2018-01-30 12:31:03 |         1 |
++----+------------+-------------------+---------------------+-----------+
+5 rows in set (0.00 sec)
+
+mysql>
+mysql>
+mysql> select*from topic LEFT JOIN author;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+mysql> select*from topic LEFT JOIN author on topic.author_id = author.id;
++----+------------+-------------------+---------------------+-----------+------+--------+---------------------------+
+| id | title      | description       | created             | author_id | id   | name   | profile                   |
++----+------------+-------------------+---------------------+-----------+------+--------+---------------------------+
+|  1 | MySQL      | MySQL is...       | 2018-01-01 12:10:11 |         1 |    1 | egoing | developer                 |
+|  2 | Oracle     | Oracle is...      | 2018-01-03 13:01:10 |         1 |    1 | egoing | developer                 |
+|  3 | SQL Server | SQL Server is ... | 2018-01-20 11:01:10 |         2 |    2 | duru   | data administrator        |
+|  4 | PostgreSQL | PostgreSQL is ... | 2018-01-23 01:03:03 |         3 |    3 | taeho  | data scientist, developer |
+|  5 | MongoDB    | MongoDB is ...    | 2018-01-30 12:31:03 |         1 |    1 | egoing | developer                 |
++----+------------+-------------------+---------------------+-----------+------+--------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select id, title, description, created, name, profile from topic LEFT JOIN author on topic.author_id = author.id;
+ERROR 1052 (23000): Column 'id' in field list is ambiguous
+mysql> select topic.id, title, description, created, name, profile from topic LEFT JOIN author on topic.author_id = author.id;
++----+------------+-------------------+---------------------+--------+---------------------------+
+| id | title      | description       | created             | name   | profile                   |
++----+------------+-------------------+---------------------+--------+---------------------------+
+|  1 | MySQL      | MySQL is...       | 2018-01-01 12:10:11 | egoing | developer                 |
+|  2 | Oracle     | Oracle is...      | 2018-01-03 13:01:10 | egoing | developer                 |
+|  3 | SQL Server | SQL Server is ... | 2018-01-20 11:01:10 | duru   | data administrator        |
+|  4 | PostgreSQL | PostgreSQL is ... | 2018-01-23 01:03:03 | taeho  | data scientist, developer |
+|  5 | MongoDB    | MongoDB is ...    | 2018-01-30 12:31:03 | egoing | developer                 |
++----+------------+-------------------+---------------------+--------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> select topic.id AS topic_id, title, description, created, name, profile from topic LEFT JOIN author on topic.author_id = author.id;
++----------+------------+-------------------+---------------------+--------+---------------------------+
+| topic_id | title      | description       | created             | name   | profile                   |
++----------+------------+-------------------+---------------------+--------+---------------------------+
+|        1 | MySQL      | MySQL is...       | 2018-01-01 12:10:11 | egoing | developer                 |
+|        2 | Oracle     | Oracle is...      | 2018-01-03 13:01:10 | egoing | developer                 |
+|        3 | SQL Server | SQL Server is ... | 2018-01-20 11:01:10 | duru   | data administrator        |
+|        4 | PostgreSQL | PostgreSQL is ... | 2018-01-23 01:03:03 | taeho  | data scientist, developer |
+|        5 | MongoDB    | MongoDB is ...    | 2018-01-30 12:31:03 | egoing | developer                 |
++----------+------------+-------------------+---------------------+--------+---------------------------+
+5 rows in set (0.00 sec)
+
+mysql> update author set profile='database administrator' WHERE id=2;
+Query OK, 1 row affected (0.00 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select*from author;
++----+--------+---------------------------+
+| id | name   | profile                   |
++----+--------+---------------------------+
+|  1 | egoing | developer                 |
+|  2 | duru   | database administrator    |
+|  3 | taeho  | data scientist, developer |
++----+--------+---------------------------+
+3 rows in set (0.00 sec)
+```
+
+
+
+
+
 ## 동영상 링크
 [DATABASE2 MySQL - 15.관계형데이터베이스의 필요성](https://www.youtube.com/watch?v=-w1vJgslUG0&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=21)  
 [DATABASE2 MySQL - 16.테이블 분리하기](https://www.youtube.com/watch?v=LeTeb3ImxI0&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=22)  
+[DATABASE2 MySQL - 17.JOIN](https://www.youtube.com/watch?v=q0UHWaDRwlk&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=24&t=0s)
