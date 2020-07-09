@@ -66,3 +66,9 @@ mysql> show databases;
 (AWS RDS, Google Cloud SQL for MySQL, Azure Database for MySQL...)
 - programming: 데이터 베이스 자체를 쓰는 경우보다, 부품으로 정보시스템을 완제품으로 만드는 것.
 (Python mysql api, PHP mysql api, JAVA mysql api) 그 언어로 데이터베이스를 쉽게 컨트롤 하는 조작 장치
+
+## 동영상 링크
+[DATABASE2 MySQL - 18.인터넷과 데이터베이스](https://www.youtube.com/watch?v=hjgaxlTQMXk&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=24) 
+[DATABASE2 MySQL - 19.MySQL Client](https://www.youtube.com/watch?v=yWy1PlkMMIw&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=25)
+[DATABASE2 MySQL - 20.MySQL Workbench](https://www.youtube.com/watch?v=JWB6sUd1R-Q&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=26)
+[DATABASE2 MySQL - 21.수업을 마치며](https://www.youtube.com/watch?v=ySH4-hEdiTs&list=PLuHgQVnccGMCgrP_9HL3dAcvdt8qOZxjW&index=27)
