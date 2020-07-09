@@ -12,4 +12,11 @@
 - Database server를 통해서, 전 세계의 수많은 사람들이 하나의 서버를 통해 정보를 주고받고 관리할 수 있게 해줄 수 있다. 
 
 ## Database2 - MySQL - 19. MySQL Client
+- Mysql의 장점 - 명령어 기반으로 빠르게 처리. 단점 - 명령어를 모르면 처리를 못함 => 검색으로 해결
+- gui기반 클라이언트의 장점 -  클릭클릭으로 보다 쉽게 처리. 단점 - 클릭하는 동안 기다려야 함
 
+
+## Database2 - MySQL - 20. MySQL Workbench
+- MySQL 서버와 클라이언트가 같은 컴퓨터에 위치해 있으므로 
+- mysql -uroot -p (ip주소 생략되있음) 기본적으로 안쓰고 엔터치면, mysql mornitor와 서버와 같이 설치된 곳 접속한다고 생각
+- 
