@@ -92,3 +92,7 @@ public class myOOP {
 	//.. 1억개의 또다른 메쏘드가 있다고 한다면? 다음시간에
 }
 ```
+
+[## JAVA 객체 지향 프로그래밍 -1. 수업소개](https://www.youtube.com/watch?v=uvYWAfZzb8k&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=1)
+[## JAVA 객체 지향 프로그래밍 -2. 남의 클래스&남의 인스턴스](https://www.youtube.com/watch?v=nMiS5ZRSgCw&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=2)
+[## JAVA 객체 지향 프로그래밍 -3. 변수와 메소드](https://www.youtube.com/watch?v=YcWaITX54k4&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=3)
