@@ -7,7 +7,7 @@
 1. 패키지(Package) 명명 규칙	
  패키지명은 표준 패턴을 따라야 한다. 가급적 한 단어의 명사를 사용한다.
 2. 클래스(Class)명명 규칙
-```
+```java
 
 public class Naming {
 public static void main(String[] args) {
