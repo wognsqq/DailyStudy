@@ -1,3 +1,31 @@
+------
+
+## Class, variable 클래스 변수 네이밍 방법
+- 파스칼 표기법(PascalCase) : 모든 단어에서 첫 번째 문자는 대문자이며 나머지는 소문자이다.
+- 카멜 표기법(camelCase) : 최초에사용된 단어를 제외한 첫 번째 문자가 대문자이며 나머지는 소문자이다. 반의어는 반드시 대응하는 개념으로 사용한다.
+
+1. 패키지(Package) 명명 규칙	
+ 패키지명은 표준 패턴을 따라야 한다. 가급적 한 단어의 명사를 사용한다.
+2. 클래스(Class)명명 규칙
+```
+
+public class Naming {
+// 	클래스명에는 파스칼을 사용한다.
+	public class HelloWorld{}
+// 	인터페이스에는 특별한 접두사나 접미사를 사용하지 않고 파스칼을 사용한다.
+	public interface Animal{}
+// 인터페이스를 구현한 클래스에는 특별한 접두사나 접미사를 사용하지 않고 파스칼을 사용한다.
+	public class Tiger implements animal{}
+// 추상 클래스에는 특별한 접두사 접미사를 사용하지 않고 파스칼 사용한다.
+	public abstract class Animal{}
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+```
+
 ## JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식  
 [JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식](https://www.youtube.com/watch?v=m1Cx8vDDmYo&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=4)  
 ## JAVA 객체 지향 프로그래밍 - 4.2. 클래스 - 형식  
