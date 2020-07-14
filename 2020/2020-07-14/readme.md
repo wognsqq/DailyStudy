@@ -1,7 +1,7 @@
-JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식
-[## JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식](https://www.youtube.com/watch?v=m1Cx8vDDmYo&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=4)
-JAVA 객체 지향 프로그래밍 - 4.2. 클래스 - 형식
-[JAVA 객체 지향 프로그래밍 - 4.2. 클래스 - 형식](https://www.youtube.com/watch?v=jpcXlhgEzmQ&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=5)
+JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식  
+[## JAVA 객체 지향 프로그래밍 - 4.1. 클래스 - 존재 이유와 기본형식](https://www.youtube.com/watch?v=m1Cx8vDDmYo&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=4)  
+JAVA 객체 지향 프로그래밍 - 4.2. 클래스 - 형식  
+[JAVA 객체 지향 프로그래밍 - 4.2. 클래스 - 형식](https://www.youtube.com/watch?v=jpcXlhgEzmQ&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=5)  
 ```java
 package codes;
 // 클래스 키워드 + 이름 
