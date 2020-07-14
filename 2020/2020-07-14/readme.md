@@ -23,7 +23,7 @@ public static void main(String[] args) {
 	public abstract class Animal{}
 ```
 3. 메소드(Method)명명 규칙
-```
+```java
 public class MethodNaming {
 public static void main(String[] args) {
 import java.util.HashMap;
