@@ -1,5 +1,5 @@
 ## JAVA 객체 지향 프로그래밍 - 5. 인스턴스
-[JAVA 객체 지향 프로그래밍 - 5. 인스턴스] (https://www.youtube.com/watch?v=Y370ydbIb7Y&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=6)
+[JAVA 객체 지향 프로그래밍 - 5. 인스턴스](https://www.youtube.com/watch?v=Y370ydbIb7Y&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=6)
 
 ### 객체지향의 가장 큰 고비 instance
  - 클래스를 복제한 복제본 1,2,3.... => instance
@@ -75,7 +75,7 @@ class Print {
 
 
 ## JAVA 객체 지향 프로그래밍 - 6. static
-[JAVA 객체 지향 프로그래밍 - 6. static] (https://www.youtube.com/watch?v=hvTuZshZvIo&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=7)
+[JAVA 객체 지향 프로그래밍 - 6. static](https://www.youtube.com/watch?v=hvTuZshZvIo&list=PLuHgQVnccGMAb-e41kXPSIpmoz1RvHyN4&index=7)
  
  ```java
  package others;
