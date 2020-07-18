@@ -4,7 +4,7 @@
 - 클래스와 인스턴스가 익숙 해진 후
 # 상속 inheritance
 
-``` 
+```java 
 class Parent{
 	public void method1(){
 }
@@ -14,15 +14,15 @@ class Child extends Parent{
 }
 ```
 # interface
-```
+``` java
 interface Contract{
 	public String method1(String param;
 }
 class Concreate1 implements Contract{}
-``
-- Contract에 적혀있는 method를 가지고 있어야 한다. 
-- 약속되어있는 정의된 멤버들을 실현해야 한다.
 
+// Contract에 적혀있는 method를 가지고 있어야 한다. 
+// 약속되어있는 정의된 멤버들을 실현해야 한다.
+```
 # Package
 
 - 서로 다른 디렉토리에, 같은 이름의 파일을 저장하게 되면, 같은 이름을 가질 수 있듯이
