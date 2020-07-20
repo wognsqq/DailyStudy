@@ -15,5 +15,5 @@ language for  <strong>creating <u>web</u> pages</strong> and web applications.
 - **TAG 매우중요
 
 - 웹페이지 - 오른쪽 눌러서 페이지 소스 보기
-- The <h1> to <h6> tags are used to define HTML headings.
+- The "<h1> to <h6> tags are used to define HTML headings."
 - h1부터 h6까지 제목을 나타내는 태그구나.
