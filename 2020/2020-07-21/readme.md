@@ -12,8 +12,8 @@
 - br tag는 단순 줄바꿈 태그로서 /=> 닫지 않는다.
 - html newline tag 검색
 - html paragraph tag 검색
-- </p><p> 는 단락을 나누는 태그로써, 정보로서의 의미를 갖게 해준다. 
-- </p><p style = "margin - top:45px;"> 시각적으로 가시성 있게 만들어줌. css언어
+- "</p><p> 는 단락을 나누는 태그로써, 정보로서의 의미를 갖게 해준다." 
+- "</p><p style = "margin - top:45px;"> 시각적으로 가시성 있게 만들어줌". css언어
 
 ```html
 <h1>HTML</h1>
