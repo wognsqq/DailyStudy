@@ -31,7 +31,8 @@
 위 태그를 사용하여 명시적으로 사용자에게 보여줄 뿐 아니라, 웹 페이지에서 책 표지와 같은 역할을 하므로 검색이 잘 된다. 
 - <h1>HTML이란 무엇인가?</h1> utf8로 작성했는데, 웹페이지도 utf8로 열라고 할때는 
 - <meta charset = "utf-8">
-- 띄어쓰기 , 밑에있는 건 본문, <title>과 <metacharset은 이 웹페이지는 utf8로 저장되 있다> 제목은 <!doctype html> <html>을 최상단에. <head></head>본문은 <body>
+- 띄어쓰기 , 밑에있는 건 본문, <title>과 <metacharset은 이 웹페이지는 utf8로 저장되 있다> 
+- 제목은 !doctype html, html을 최상단에. head /head 본문은 body
 - 위키피디아 -  페이지소스보기에서 html 태그 확인해보자
   
 ```html
