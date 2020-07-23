@@ -74,3 +74,19 @@ web pages and web applications.
 
 ```
 
+## WEB1 - 14. HTML 태그의 제왕
+[WEB1 - 14. HTML 태그의 제왕](https://www.youtube.com/watch?v=V3pkC1hE-as&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=14)
+- 태그의 킹 등장!
+- 도시의 길과 인체 혈관과 같은 것이다. 이게 없으면 정보 혁명도 일어나지 않았을 것이야.. 뭔데 대체 이게 ??
+- HyperText - anchor의 첫글자를 딴 'a' a tag는 대체 뭘까요?
+## link 다!
+```html
+<p><a href="https://www.w3.org/TR/html5/" target="_blank" title = "html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup Language for creating
+web pages and<br><br><br>web applications.
+```
+
+- href =>링크 주소 걸기
+- target="_blank" => 새 탭으로 열기
+- title = "html5 specification" => 마우스 대면 툴팁 보이게 하기
+
+
