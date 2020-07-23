@@ -151,4 +151,7 @@ web pages and<br><br><br>web applications.
 - 웹서버를 운영하기 위해서는 컴퓨터가 항상 켜져있어야 하고, 웹서버를 배워서 깔아야하고, 집 밖에서 연결할 수 있게 해야함 - 쉽지 않음
 - host를 빌려주는 회사 web hosting
 - github, 프로그래머의 성지
+- repository: 저장하는 공간, 프로그래머 전용
+- initialize this repository with a README : 일단 체크
+- upload files 
 - 
