@@ -89,4 +89,31 @@ web pages and<br><br><br>web applications.
 - target="_blank" => 새 탭으로 열기
 - title = "html5 specification" => 마우스 대면 툴팁 보이게 하기
 
+## WEB1 - 15. 웹사이트 완성
+[WEB1 - 15. 웹사이트 완성](https://www.youtube.com/watch?v=w5S0GACgL3U&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=15)
+ - WEB을 index.html에 링크를 걸어보자
+```html
+<!doctype html>
+<html>
 
+<head>
+<title>WEB1 -HTML</title> // 1.title은  페이지별 소제목으로 바꿔준다
+<meta charset = "utf-8">
+<h1>HTML이란 무엇인가?</h1>
+</head>
+
+<body>
+<h1><a href="index.html"> WEB</a></h1>
+<ol>
+<li><a href="1.html"> HTML</a></li> 2. 각각의 페이지를 atom에서 만들어서 작성한다
+<li><a href="2.html"> CSS</a></li>
+<li><a href="3.html"> JavaScript</a></li>
+</ol>
+
+<h2>CSS</h2>
+<p>
+ 본문
+</p>
+</body>
+</html>
+``` 
