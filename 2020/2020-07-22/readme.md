@@ -117,3 +117,38 @@ web pages and<br><br><br>web applications.
 </body>
 </html>
 ``` 
+
+## WEB1 - 16. 원시웹
+[WEB1 - 16. 원시웹](https://www.youtube.com/watch?v=pYOEy_mAMpI&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=16)
+- 웹 페이지 만들기 & 인터넷을 통해 누구나 가져갈 수 있게 하기
+- 정보기술을 바라보는 관전포인트를 넓혀보자
+- Internet 전체 안에 web이 존재하고, 인터넷 안에 수많은 다른 서비스가 존재한다.
+- 웹의 출현 LHC=> 입자를 보는 현미경 같은 것 
+- 팀 버너스리 Enquire를 만듬 - 웹의 전신
+- 1990년에 연구소에 인터넷이 들어오면서 버너스리가 그걸 합하면서 웹페이지와 www를 만들고, 웹서버를 만들고
+- http://info.cern.ch - home of the first website 웹의 메소포타미아, 시작
+- primitive web : web이기 위한 철저히 순수한 단계
+- 인터넷이란 무엇인가?
+
+## WEB1 - 17. 인터넷을 여는 열쇠 : 서버와 클라이언트
+[WEB1 - 17. 인터넷을 여는 열쇠 : 서버와 클라이언트](https://www.youtube.com/watch?v=yBPyzaccbkc&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=17)
+
+- 최소 2대의 컴퓨터가 있어야 인터넷 구동 가능
+- web Browser - Web Server(info.cern.ch)
+- info.cern.ch/index.html 을 입력하면 웹서버에서 index.html을 찾아 browser로 보내고, 브라우저가 index.html 을 읽어서 웹이 동작
+- 서로 정보를 주고 받는다. 
+- 웹브라우저 : 요청 request, 웹서버 : 응답 response
+- 웹 브라우저 // 웹 서버
+- client     // server
+- Game Client, Chatting Client // Game Server, Chatting Server
+- 내 컴퓨터에 웹 서버를 직접 까는방법 or 웹 호스팅을 이용해 회사에 맡긴다
+- 어렵다. 배울거 많다                   배울거 별로없다. 쉽다
+- 우선 웹 호스팅 해보고 웹서버로 들어가봐
+
+## WEB1 - 18. 웹호스팅 : github page
+[WEB1 - 18. 웹호스팅 : github page](https://www.youtube.com/watch?v=n1wvs7xuUYk&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=18)
+
+- 웹서버를 운영하기 위해서는 컴퓨터가 항상 켜져있어야 하고, 웹서버를 배워서 깔아야하고, 집 밖에서 연결할 수 있게 해야함 - 쉽지 않음
+- host를 빌려주는 회사 web hosting
+- github, 프로그래머의 성지
+- 
