@@ -157,3 +157,10 @@ web pages and<br><br><br>web applications.
 - 이 주소를 주면 파일을 볼 수 있다. 
 - html파일을 이용해 웹사이트를 운영할 수 있도록 컴퓨터와 웹사이트를 제공해준다.
 - 0722 => settings => Github Pages => master branch => save  
+- https://wognsqq.github.io/DailyStudy/index.html
+- 직접 서버를 운영하지 않고도 나의 웹페이지를 운영할 수 있다. !!
+- 웹 호스팅, Static web hosting = 웹 페이지만 운영하고 싶을 때.
+- 대부분 웹 호스팅을 함
+- free static web hosting 검색 
+- bitballon.com/ neocities.org/ amazons3/ google cloud strage/ azure cs/ 
+
