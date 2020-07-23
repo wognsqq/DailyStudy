@@ -154,4 +154,5 @@ web pages and<br><br><br>web applications.
 - repository: 저장하는 공간, 프로그래머 전용
 - initialize this repository with a README : 일단 체크
 - upload files 
-- 
+- 이 주소를 주면 파일을 볼 수 있다. 
+- html파일을 이용해 웹사이트를 운영할 수 있도록 컴퓨터와 웹사이트를 제공해준다
