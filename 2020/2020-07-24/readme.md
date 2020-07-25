@@ -41,3 +41,9 @@ picture-in-picture" allowfullscreen></iframe>
 - 단지 코드를 복사해서 사용할 수 있다.
 
 
+
+## [WEB1 부록 : 코드의 힘 : 웹사이트 방문자 분석기](https://www.youtube.com/watch?v=K3cYoZ9AFOI&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=34)
+
+- analytics.google.com 접속
+- 계정만들기
+- 이건 웹사이트를 운영할 때 다시 봐야할 것 같다. 
