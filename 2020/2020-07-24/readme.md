@@ -1,8 +1,6 @@
-## [WEB1 부록 - 코드의 힘](https://www.youtube.com/watch?v=YVxCFGv9Eqk&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=30
-)
+## [WEB1 부록 - 코드의 힘](https://www.youtube.com/watch?v=YVxCFGv9Eqk&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=30)
 
-## [WEB1 부록 - 코드의 힘 : 동영상 삽입](https://www.youtube.com/watch?v=7T7r_oSp0SE&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=31
-)
+## [WEB1 부록 - 코드의 힘 : 동영상 삽입](https://www.youtube.com/watch?v=7T7r_oSp0SE&list=PL2Mkwvh6s7KI1Wb3COvfpVUZi46XG322g&index=31)
 
 - iframe tag
 
