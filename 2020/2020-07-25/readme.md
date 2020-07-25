@@ -63,8 +63,8 @@
 - 유지보수 편의성 향상 & 가독성 향상
 - 디자인 관련 코드는 '<style>'안에 갇히게 된다. => style 안의 것은 안 건드려도 된다.(HTML은 너무나 중요)
 - CSS를 사용해서 웹 페이지를 디자인 하는 것이 훨씬 효율적이다.
-
-[WEB2 CSS - 4. CSS의 기본 문법](https://www.youtube.com/watch?v=h0AlL9YI6bM&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=4)
+```
+## [WEB2 CSS - 4. CSS의 기본 문법](https://www.youtube.com/watch?v=h0AlL9YI6bM&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=4)
 - <li><a href="2.html" style = "color:red"> CSS<font></a></li>
 - style ="" => html의 속성, 
 - a{}= 선택자, selector
@@ -72,7 +72,7 @@
 - style태그를 직접사용할 경우에는 직접 효과를 줄 것이기 때문에 선택자를 사용할 필요가 없다. 
 - 세미콜론은 하나의 디스크립션이 시작되고 끝나는 것을 구분. 효과 지정 후 세미 콜론
 
-[WEB2 CSS 5 - 혁명적 변화](https://www.youtube.com/watch?v=nC2-nJEXL2U&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=5)
+## [WEB2 CSS 5 - 혁명적 변화](https://www.youtube.com/watch?v=nC2-nJEXL2U&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=5)
 - a{color:red;}
 - a = 선택자, selector
 - color:red 선언 declaration 효과
@@ -83,7 +83,7 @@
 1) css를 통해 웹 페이지를 디자인하는 어떠한 property가 존재하는가
 2) 그 효과를 더 정확히 선택해서 지정하기 위해서 다양한 선택자를 알아가는 과정
 
-[WEB2 CSS - 6. CSS 속성을 스스로 알아내기](https://www.youtube.com/watch?v=WcED6Ia1IY4&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=6)
+## [WEB2 CSS - 6. CSS 속성을 스스로 알아내기](https://www.youtube.com/watch?v=WcED6Ia1IY4&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=6)
 - WEB 제목이 더 커졌으면 좋겠다, 가운데 정렬되었으면 좋겠다 
 - css text size property, text align center 검색
 ```html
@@ -114,7 +114,7 @@ a{
 </ol>
 
 ```
-[WEB2 CSS - 7. CSS 선택자의 기본](https://www.youtube.com/watch?v=8-rCMmamtDE&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=7)
+## [WEB2 CSS - 7. CSS 선택자의 기본](https://www.youtube.com/watch?v=8-rCMmamtDE&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=7)
 - css를 지배하는 2가지 효과&선택자
 ```html 
 <!doctype html>
