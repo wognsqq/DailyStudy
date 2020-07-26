@@ -1,4 +1,4 @@
-[WEB2 CSS - 8. 박스 모델](https://www.youtube.com/watch?v=MLjCVUspcDo&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=8)
+## [WEB2 CSS - 8. 박스 모델](https://www.youtube.com/watch?v=MLjCVUspcDo&list=PLuHgQVnccGMAnWgUYiAW2cTzSBywFO75B&index=8)
 - WEB1에서 가져온 예제에 디자인을 해보자
 ```html 
  /*
