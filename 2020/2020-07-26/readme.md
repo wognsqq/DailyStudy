@@ -213,7 +213,7 @@ body{
   </body>
 </html>
 ```
-[WEB2 CSS - 13. 미디어 쿼리 써먹기](https://www.youtube.com/watch?v=qe3nSIg2k3Y)
+## [WEB2 CSS - 13. 미디어 쿼리 써먹기](https://www.youtube.com/watch?v=qe3nSIg2k3Y)
 - 화면을 바꿈에 따라 화면크기에 맞춰서 글자 보이기
 ```html
 <!doctype html>
@@ -286,7 +286,7 @@ body{
   </body>
   </html>
 ```
-[WEB2 CSS - 14. CSS 코드의 재사용](https://www.youtube.com/watch?v=djBrHjeitUo)
+## [WEB2 CSS - 14. CSS 코드의 재사용](https://www.youtube.com/watch?v=djBrHjeitUo)
 - 위css코드를 다른 페이지에도 전파하세요
 - style tag는 따로 빼서 링크걸어서 css파일과 연결하여, 코드를 더 깔끔하게 짠다.
 - 완전 구현이 달라지며 효율적으로 동작하게 된다. 
